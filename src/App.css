@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  width: 100%;
 }
+/* Start Home Page !!!!!!!!!!!!!!!!! */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home-page{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.Group-sec{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  padding: 2%;
+  gap: 20px;
+}
+.Group{
+  border: 2px solid black;
+  width: 45%;
+}
+.Group-row{
+  display: flex;
+  justify-content: space-around;
+}
+.Group-row div{
+  border: 1px solid black;
+  flex: 1;
+  text-align: center;
+}
+.Group-row div.name{
+  flex-grow: 2;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* End Home Page !!!!!!!!!!!!!!!!!!! */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Start Auth Page */
+.auth-page{
+  width: 100%;
+  height: 100vh;
+}
+.auth-page main{
+  display: grid;
+  place-items: center;
+  
+}
+.card-holder{
+  border: 2px solid black;
+  width: 50%;
+  height: 50vh;
+  margin: 8% auto;
+}
+.sign-up-card,.login-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 2%;
+}
+.sign-up-card input,button{
+  width: 50%;
+  margin: 0 auto;
+}
+/* End Auth Page */
+
+
+@media(max-width:425px){
+  .Group{
+    border: 2px solid black;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card-holder{
+    margin: 25% auto;
+  }
+  .sign-up-card input,button{
+    width: 100%;
   }
 }
