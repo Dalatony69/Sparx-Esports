@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import {Pic} from './undraw_Hello.png'
 import "../App.css";
 
 function Signup_card(){
