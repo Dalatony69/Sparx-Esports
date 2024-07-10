@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sparx-Esports/static/css/main.e25fa8cd.css",
+    "main.js": "/Sparx-Esports/static/js/main.dcbe8d31.js",
+    "static/js/453.ed3810f9.chunk.js": "/Sparx-Esports/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Sparx-Esports/index.html",
+    "main.e25fa8cd.css.map": "/Sparx-Esports/static/css/main.e25fa8cd.css.map",
+    "main.dcbe8d31.js.map": "/Sparx-Esports/static/js/main.dcbe8d31.js.map",
+    "453.ed3810f9.chunk.js.map": "/Sparx-Esports/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e25fa8cd.css",
+    "static/js/main.dcbe8d31.js"
+  ]
+}
